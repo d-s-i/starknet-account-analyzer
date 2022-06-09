@@ -1,6 +1,6 @@
 {
   "name": "starknet-account-analyzer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyze accounts and contracts activity on StarkNet",
   "main": "dist/index.js",
   "scripts": {
