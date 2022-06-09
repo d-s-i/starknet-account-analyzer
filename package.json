@@ -4,7 +4,8 @@
   "description": "Analyze accounts and contracts activity on StarkNet",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/d-s-i/starknet-account-analyzer#readme",
   "dependencies": {
+    "@open-rpc/client-js": "^1.7.1",
     "starknet": "^3.9.0",
     "starknet-analyzer": "^1.0.32"
   }
