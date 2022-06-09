@@ -1,0 +1,26 @@
+{
+  "name": "starknet-account-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze accounts and contracts activity on StarkNet",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-s-i/starknet-account-analyzer.git"
+  },
+  "keywords": [
+    "starknet"
+  ],
+  "author": "dsi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d-s-i/starknet-account-analyzer/issues"
+  },
+  "homepage": "https://github.com/d-s-i/starknet-account-analyzer#readme",
+  "dependencies": {
+    "starknet": "^3.9.0",
+    "starknet-analyzer": "^1.0.32"
+  }
+}
